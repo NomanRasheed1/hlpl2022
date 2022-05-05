@@ -1,25 +1,42 @@
-// Part 1 of the drill
-#include "std_lib_facilities.h"
-// global array
-int ga[10] ={1,2,4,8,16,32,64,128,256,512};
+// Part 1 of the drill,Define a global int array ga of ten ints initialize
 
-void f(int a[], int n)
+
+
+
+#include "std_lib_facilities.h"
+
+// defining global array
+
+    int ga[10] ={1,2,4,8,16,32,64,128,256,512};
+
+    void f(int a[], int n)
 {
-	// define local array
-	int la[10];
-	//copying values
+
+// define local array
+	
+	    int la[10];
+	
+//Copy the values from ga into la
+	    
 	for (int i = 0;i < 10;i++)
 		la[i] = ga[i];
-	//printing values
+	    
+// Print out the elements of la
+	    
+	   
 	for (int i = 0;i < 10;i++)
 		cout<<la[i]<<" ";
 
-	// pointer
+// defining pointer p
+	    
 	int* p = new int[n];
-	// copy argumented arr
-	for (int i = 0;i < 10;i++)
+	
+// copy argumented from argument arr to free-store
+
+	    for (int i = 0;i < 10;i++)
 		p[i] = a[i];
-	// printing
+// printing
+	    
 	cout << endl;
 	for (int i = 0;i < 10;i++)
 		cout << p[i] << " ";
