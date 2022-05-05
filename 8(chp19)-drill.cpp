@@ -32,7 +32,7 @@ public :
 	{
 		val = val3;
 	}
-	*/
+	
 
 };
 
