@@ -1,30 +1,45 @@
 // Part 1 of the drill
+
+
 #include "std_lib_facilities.h"
-// global array
+
+// global vector
+
 vector<int> gv ={1,2,4,8,16,32,64,128,256,512};
 
 void f(vector <int> v)
 {
-	// define local vector 1
+
+// defining local vector 
+	
 	vector <int> lv;
-	//copying values
+//copying values
+	
+	
 	for (int i = 0;i < v.size();i++)
 		lv.push_back(gv[i]);
-	//printing values
+//printing values
+	
 	for (int i = 0;i < lv.size();i++)
 		cout<<lv[i]<<" ";
-	// printing
+// printing
+
 	cout << endl;
-	// define local vector 2
+// define local vector 2
+
 	vector <int> lv2;
-	//copying values
+//copying values
+
 	for (int i = 0;i < v.size();i++)
 		lv2.push_back( v[i]);
-	//printing values
+
+//printing values
+
 	for (int i = 0;i < lv2.size();i++)
 		cout << lv2[i] << " ";
 	cout << endl;
 }
+
 int main()
 {
 	f(gv);
