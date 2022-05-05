@@ -1,3 +1,13 @@
+//Write three functions swap_v(int,int), swap_r(int&,int&), and swap_cr(const int&, const int&). Each should
+//have the body
+//{ int temp; temp = a, a=b; b=temp; }
+//where a and b are the names of the arguments.
+
+
+//Main-solution
+
+
+
 #include "std_lib_facilities.h"
 
 void swap_v(int a, int b) {
