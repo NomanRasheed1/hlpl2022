@@ -1,6 +1,3 @@
-// . Take the calculator from the file calculator02buggy.cpp. Get it to compile. You need to find and fix a few bugs.
-//Those bugs are not in the text in the book. Find the three logic errors deviously inserted in calculator02buggy.cpp and
-//remove them so that the calculator produces correct results.
 
 //Main-solution
 
